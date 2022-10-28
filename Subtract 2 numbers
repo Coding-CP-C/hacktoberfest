@@ -1,0 +1,6 @@
+number1=float(input("Enter first number: "))  
+number2=float(input("Enter second number: "))  
+def subtraction(a,b): 
+    sub=a-b
+    return sub
+print("Result is: ",subtraction(number1,number2))
