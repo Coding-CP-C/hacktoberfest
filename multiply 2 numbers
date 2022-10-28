@@ -1,0 +1,10 @@
+def multiplication(x, y):
+    z = x * y
+    return z
+
+
+p = int(input("Enter first number: "))
+q = int(input("Enter second number: "))
+
+result = multiplication(p, q)
+print("Multiplication of two numbers:", result)
